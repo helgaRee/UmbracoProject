@@ -1,0 +1,19 @@
+{
+  "Name": "Shop",
+  "Alias": "Shop",
+  "File": "umb://template-file/Shop.cshtml",
+  "Master": "umb://template/9b5cbc78addd4403bc60fa3d6f364866",
+  "Udi": "umb://template/c86876f3a5c1467c82520aa221795fd4",
+  "Dependencies": [
+    {
+      "Udi": "umb://template-file/Shop.cshtml",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://template/9b5cbc78addd4403bc60fa3d6f364866",
+      "Ordering": true
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.TemplateArtifact",
+  "__version": "13.1.0"
+}

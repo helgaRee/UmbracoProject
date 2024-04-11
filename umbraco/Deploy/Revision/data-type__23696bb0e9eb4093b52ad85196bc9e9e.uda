@@ -1,0 +1,27 @@
+{
+  "Name": "Product - Review - Block List",
+  "Alias": "",
+  "EditorAlias": "Umbraco.BlockList",
+  "Configuration": {
+    "blocks": [
+      {
+        "contentElementTypeKey": "e49634f1-0198-4292-b392-7c8daffbb181",
+        "label": "{{personName}}",
+        "editorSize": "medium",
+        "forceHideContentEditorInOverlay": false
+      }
+    ],
+    "validationLimit": {},
+    "useSingleBlockMode": false,
+    "useLiveEditing": false,
+    "useInlineEditingAsDefault": false
+  },
+  "Udi": "umb://data-type/23696bb0e9eb4093b52ad85196bc9e9e",
+  "Dependencies": [
+    {
+      "Udi": "umb://document-type/e49634f101984292b3927c8daffbb181"
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "13.1.0"
+}

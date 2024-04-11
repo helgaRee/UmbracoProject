@@ -1,0 +1,15 @@
+
+
+/**umb_name:Header*/
+h2 {
+	color: #CDCFD8;
+	font-size: 150%;
+	background: linear-gradient(90deg, #1B264F, #89CFF0);
+}
+
+/**umb_name:Sub header*/
+Selector: h3 {
+	color: #CDCFD8;
+	font-size: 150%;
+	background: linear-gradient(90deg, #1B264F, #89CFF0);
+}

@@ -1,0 +1,148 @@
+{
+  "Name": "Home Page",
+  "Alias": "homePage",
+  "DefaultTemplate": "umb://template/008919e9f3e2401e9375ec56db64609b",
+  "AllowedTemplates": [
+    "umb://template/008919e9f3e2401e9375ec56db64609b"
+  ],
+  "HistoryCleanup": {},
+  "Icon": "icon-home color-pink",
+  "Thumbnail": "folder.png",
+  "Description": "The root of site",
+  "Permissions": {
+    "AllowVaryingByCulture": true,
+    "AllowedAtRoot": true,
+    "AllowedChildContentTypes": [
+      "umb://document-type/7dedc9039f444b7f92ebe0f57971d0b1",
+      "umb://document-type/2f7f04ba3c134240ac426656b21cfe43",
+      "umb://document-type/19033edca48a4afdb4d95aff45806452"
+    ]
+  },
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "07ccd91b-9f5c-401d-b42a-ddb1754acc4c",
+      "Name": "Design",
+      "SortOrder": 2,
+      "Alias": "design",
+      "PropertyTypes": [
+        {
+          "Key": "0595935f-e39e-413f-a79a-67af6a4c3ce8",
+          "Alias": "colorSettingAccent1",
+          "DataType": "umb://data-type/00243486552c4189bb8a1fbbe6f3d50b",
+          "Name": "Color Setting - Accent 1",
+          "SortOrder": 1
+        },
+        {
+          "Key": "1b52b046-d42e-4d12-9c87-e2502868fcf7",
+          "Alias": "colorSettingsGradientStart",
+          "DataType": "umb://data-type/3364c6bec80544d4aff3954fe5b4d352",
+          "Name": "Color Settings - Gradient Start",
+          "SortOrder": 3
+        },
+        {
+          "Key": "3f63a7f7-835a-46e2-bcf3-e95e82df441a",
+          "Alias": "colorSettingsGradientEnd",
+          "DataType": "umb://data-type/0263e8624ff040ed8fd42ee812b37fbf",
+          "Description": "",
+          "Name": "Color Settings - Gradient End"
+        },
+        {
+          "Key": "c0656c91-1c07-4fb5-befb-49b8641d1c0a",
+          "Alias": "colorSettingsAccent2",
+          "DataType": "umb://data-type/22681cde206647b2bebd4dcfc3e17cb0",
+          "Name": "Color Settings - Accent 2",
+          "SortOrder": 2
+        }
+      ]
+    },
+    {
+      "Key": "b555ef70-08de-4ec5-a26c-dd5cc558b03c",
+      "Name": "Footer",
+      "SortOrder": 1,
+      "Alias": "footer",
+      "PropertyTypes": [
+        {
+          "Key": "6b7dfaf6-10ac-4341-b69a-43c5d714e1f5",
+          "Alias": "companyAddress",
+          "DataType": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
+          "Name": "Company Address",
+          "VariesByCulture": true
+        },
+        {
+          "Key": "888278d8-f6f2-4446-91ff-847e32dab5ca",
+          "Alias": "companyPhone",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Name": "Company Phone",
+          "SortOrder": 1,
+          "VariesByCulture": true
+        }
+      ]
+    },
+    {
+      "Key": "ff11d007-2651-43e6-8a6b-4ada36f708d2",
+      "Name": "Header",
+      "Alias": "header",
+      "PropertyTypes": [
+        {
+          "Key": "08be9e10-5e8f-414d-a6bd-e063e37c2077",
+          "Alias": "highlightText",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Name": "Highlight Text",
+          "SortOrder": 1,
+          "VariesByCulture": true
+        },
+        {
+          "Key": "4f48bb9e-7f7b-4281-99d1-9cdf3d537fe7",
+          "Alias": "companyName",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "Name of the Company",
+          "Name": "Company Name"
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/e26c810742e74ea5b1d6580473085269",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/00243486552c4189bb8a1fbbe6f3d50b",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://data-type/0263e8624ff040ed8fd42ee812b37fbf",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://data-type/22681cde206647b2bebd4dcfc3e17cb0",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://data-type/3364c6bec80544d4aff3954fe5b4d352",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://document-type/19033edca48a4afdb4d95aff45806452"
+    },
+    {
+      "Udi": "umb://document-type/2f7f04ba3c134240ac426656b21cfe43"
+    },
+    {
+      "Udi": "umb://document-type/7dedc9039f444b7f92ebe0f57971d0b1"
+    },
+    {
+      "Udi": "umb://template/008919e9f3e2401e9375ec56db64609b",
+      "Ordering": true
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "13.1.0"
+}

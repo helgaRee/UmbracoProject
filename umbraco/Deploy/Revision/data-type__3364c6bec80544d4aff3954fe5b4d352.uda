@@ -1,0 +1,14 @@
+{
+  "Name": "Home Page - Color Settings - Gradient Start - Eye Dropper Color Picker",
+  "Alias": "",
+  "EditorAlias": "Umbraco.ColorPicker.EyeDropper",
+  "DatabaseType": "Nvarchar",
+  "Configuration": {
+    "showAlpha": true,
+    "showPalette": true
+  },
+  "Udi": "umb://data-type/3364c6bec80544d4aff3954fe5b4d352",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "13.1.0"
+}

@@ -1,0 +1,50 @@
+{
+  "Name": "Text Page",
+  "Alias": "textPage",
+  "DefaultTemplate": "umb://template/92dbb5cf52244f04ba6b3e406ee61fda",
+  "AllowedTemplates": [
+    "umb://template/92dbb5cf52244f04ba6b3e406ee61fda"
+  ],
+  "HistoryCleanup": {},
+  "Icon": "icon-article color-light-blue",
+  "Thumbnail": "folder.png",
+  "Description": "Page with area for text and images.",
+  "Permissions": {
+    "AllowedChildContentTypes": [
+      "umb://document-type/7dedc9039f444b7f92ebe0f57971d0b1"
+    ]
+  },
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "d6972526-9223-40af-95c6-72d5cc27bc30",
+      "Name": "Content",
+      "Alias": "content",
+      "PropertyTypes": [
+        {
+          "Key": "19bf8c75-f6e0-4876-8a8d-19b6a73532a4",
+          "Alias": "bodyText",
+          "DataType": "umb://data-type/ca90c9500aff4e72b976a30b1ac57dad",
+          "Name": "Body text"
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/7dedc9039f444b7f92ebe0f57971d0b1",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/ca90c9500aff4e72b976a30b1ac57dad",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://document-type/7dedc9039f444b7f92ebe0f57971d0b1"
+    },
+    {
+      "Udi": "umb://template/92dbb5cf52244f04ba6b3e406ee61fda",
+      "Ordering": true
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "13.1.0"
+}

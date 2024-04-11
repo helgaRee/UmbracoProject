@@ -1,0 +1,54 @@
+{
+  "Name": "Header",
+  "Alias": "header",
+  "AllowedTemplates": [],
+  "HistoryCleanup": {},
+  "Icon": "icon-bug color-pink",
+  "Thumbnail": "folder.png",
+  "Permissions": {
+    "IsElementType": true,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": "umb://document-type-container/4429a2e0da424e4b8404b9dc05a06eab",
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "f6ba0104-378a-4d51-b35c-99ac29f2287f",
+      "Name": "Header",
+      "Alias": "header",
+      "PropertyTypes": [
+        {
+          "Key": "4f85bf7f-5706-4922-9c6d-e0e18c32e426",
+          "Alias": "headerTitle",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Name": "Header Title"
+        },
+        {
+          "Key": "b794b609-df61-4911-ac9b-118489c39f65",
+          "Alias": "backgroundImage",
+          "DataType": "umb://data-type/ad9f0cf2bda245d59ea1a63cfc873fd3",
+          "Name": "Background Image",
+          "SortOrder": 1
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/7632e92510224372912c79aeaab239be",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://data-type/ad9f0cf2bda245d59ea1a63cfc873fd3",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://document-type-container/4429a2e0da424e4b8404b9dc05a06eab",
+      "Ordering": true
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "13.1.0"
+}

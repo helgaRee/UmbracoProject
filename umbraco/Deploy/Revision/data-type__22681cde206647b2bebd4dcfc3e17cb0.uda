@@ -1,0 +1,14 @@
+{
+  "Name": "Home Page - Color Settings - Accent 2 - Eye Dropper Color Picker",
+  "Alias": "",
+  "EditorAlias": "Umbraco.ColorPicker.EyeDropper",
+  "DatabaseType": "Nvarchar",
+  "Configuration": {
+    "showAlpha": false,
+    "showPalette": false
+  },
+  "Udi": "umb://data-type/22681cde206647b2bebd4dcfc3e17cb0",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "13.1.0"
+}

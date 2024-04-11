@@ -1,0 +1,73 @@
+{
+  "Name": "Product",
+  "Alias": "product",
+  "DefaultTemplate": "umb://template/cb57cf730d404e24b191ee51ef1e9163",
+  "AllowedTemplates": [
+    "umb://template/cb57cf730d404e24b191ee51ef1e9163"
+  ],
+  "HistoryCleanup": {},
+  "Icon": "icon-shopping-basket-alt-2 color-lime",
+  "Thumbnail": "folder.png",
+  "Permissions": {
+    "AllowVaryingByCulture": true,
+    "AllowedChildContentTypes": []
+  },
+  "CompositionContentTypes": [
+    "umb://document-type/7632e92510224372912c79aeaab239be"
+  ],
+  "PropertyGroups": [
+    {
+      "Key": "c82f0292-a727-4fbd-9c36-57180bb22b6c",
+      "Name": "Content",
+      "Alias": "content",
+      "PropertyTypes": [
+        {
+          "Key": "722ddc77-724e-432d-88e6-9ad5cd452e6d",
+          "Alias": "bodyText",
+          "DataType": "umb://data-type/bb5e9d583fc2475b8e0259f2a1a702bf",
+          "Name": "Body Text",
+          "SortOrder": 1
+        },
+        {
+          "Key": "939afd9a-0316-471b-84a1-6075c2c94ad0",
+          "Alias": "previewImage",
+          "DataType": "umb://data-type/ad9f0cf2bda245d59ea1a63cfc873fd3",
+          "Name": "Preview Image"
+        },
+        {
+          "Key": "e6b92560-7d47-4c9a-97a8-e1c2f1e35067",
+          "Alias": "review",
+          "DataType": "umb://data-type/23696bb0e9eb4093b52ad85196bc9e9e",
+          "Name": "Review",
+          "SortOrder": 2
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/90ec4e9aa231498a84e92e3633d2f7c1",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/23696bb0e9eb4093b52ad85196bc9e9e",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://data-type/ad9f0cf2bda245d59ea1a63cfc873fd3",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://data-type/bb5e9d583fc2475b8e0259f2a1a702bf",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://document-type/7632e92510224372912c79aeaab239be",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://template/cb57cf730d404e24b191ee51ef1e9163",
+      "Ordering": true
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "13.1.0"
+}

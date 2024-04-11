@@ -1,0 +1,38 @@
+{
+  "Name": "Shop",
+  "Alias": "shop",
+  "DefaultTemplate": "umb://template/c86876f3a5c1467c82520aa221795fd4",
+  "AllowedTemplates": [
+    "umb://template/c86876f3a5c1467c82520aa221795fd4"
+  ],
+  "HistoryCleanup": {},
+  "Icon": "icon-shopping-basket color-amber",
+  "Thumbnail": "folder.png",
+  "Permissions": {
+    "AllowVaryingByCulture": true,
+    "AllowedChildContentTypes": [
+      "umb://document-type/90ec4e9aa231498a84e92e3633d2f7c1"
+    ]
+  },
+  "CompositionContentTypes": [
+    "umb://document-type/7632e92510224372912c79aeaab239be"
+  ],
+  "PropertyGroups": [],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/19033edca48a4afdb4d95aff45806452",
+  "Dependencies": [
+    {
+      "Udi": "umb://document-type/7632e92510224372912c79aeaab239be",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://document-type/90ec4e9aa231498a84e92e3633d2f7c1"
+    },
+    {
+      "Udi": "umb://template/c86876f3a5c1467c82520aa221795fd4",
+      "Ordering": true
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "13.1.0"
+}

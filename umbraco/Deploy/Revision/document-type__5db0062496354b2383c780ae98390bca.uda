@@ -1,0 +1,98 @@
+{
+  "Name": "Blog Entry",
+  "Alias": "blogEntry",
+  "DefaultTemplate": "umb://template/be16eb769a7e42a0a9aa4c9d80394eec",
+  "AllowedTemplates": [
+    "umb://template/be16eb769a7e42a0a9aa4c9d80394eec"
+  ],
+  "HistoryCleanup": {},
+  "Icon": "icon-diamonds color-deep-purple",
+  "Thumbnail": "folder.png",
+  "Description": "A Blog Post",
+  "Permissions": {
+    "AllowVaryingByCulture": true,
+    "AllowedChildContentTypes": []
+  },
+  "CompositionContentTypes": [
+    "umb://document-type/7632e92510224372912c79aeaab239be"
+  ],
+  "PropertyGroups": [
+    {
+      "Key": "449dca9d-bb0f-4953-90f1-9de364271924",
+      "Name": "Content",
+      "SortOrder": 1,
+      "Alias": "content",
+      "PropertyTypes": [
+        {
+          "Key": "2f33e056-5b95-4ab7-bec2-7fe4995f6829",
+          "Alias": "bodyText",
+          "DataType": "umb://data-type/ca90c9500aff4e72b976a30b1ac57dad",
+          "Name": "Body Text",
+          "SortOrder": 2
+        },
+        {
+          "Key": "487fdd2d-d8ba-43b0-abb6-24da5d789ed9",
+          "Alias": "author",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Name": "Author",
+          "SortOrder": 4
+        },
+        {
+          "Key": "6a834b28-139e-4fb2-bb62-5f3d324a97a1",
+          "Alias": "categories",
+          "DataType": "umb://data-type/b6b73142b9c14bf8a16de1c23320b549",
+          "Name": "Categories",
+          "SortOrder": 3
+        },
+        {
+          "Key": "8cf18208-31de-4299-8ea7-ae4570ab6fd2",
+          "Alias": "summary",
+          "DataType": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
+          "Name": "Summary",
+          "SortOrder": 1
+        },
+        {
+          "Key": "b6767aa8-e8f4-41bc-9efc-a9081d5477bf",
+          "Alias": "image",
+          "DataType": "umb://data-type/ad9f0cf2bda245d59ea1a63cfc873fd3",
+          "Name": "Image",
+          "SortOrder": 5
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/5db0062496354b2383c780ae98390bca",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://data-type/ad9f0cf2bda245d59ea1a63cfc873fd3",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://data-type/b6b73142b9c14bf8a16de1c23320b549",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://data-type/ca90c9500aff4e72b976a30b1ac57dad",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://document-type/7632e92510224372912c79aeaab239be",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://template/be16eb769a7e42a0a9aa4c9d80394eec",
+      "Ordering": true
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "13.1.0"
+}

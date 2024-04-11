@@ -1,0 +1,54 @@
+{
+  "Name": "Review",
+  "Alias": "review",
+  "AllowedTemplates": [],
+  "HistoryCleanup": {},
+  "Icon": "icon-article color-blue-grey",
+  "Thumbnail": "folder.png",
+  "Permissions": {
+    "IsElementType": true,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": "umb://document-type-container/4429a2e0da424e4b8404b9dc05a06eab",
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "010822fa-2fff-4b67-9871-e0fea5037e76",
+      "Name": "Content",
+      "Alias": "content",
+      "PropertyTypes": [
+        {
+          "Key": "69e431ac-6280-4990-8695-0f0671431cfa",
+          "Alias": "quote",
+          "DataType": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
+          "Name": "Quote",
+          "SortOrder": 1
+        },
+        {
+          "Key": "76064058-5b28-4bbe-b9d1-9b31d8c08118",
+          "Alias": "personName",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Name": "Person Name"
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/e49634f101984292b3927c8daffbb181",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://document-type-container/4429a2e0da424e4b8404b9dc05a06eab",
+      "Ordering": true
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "13.1.0"
+}

@@ -1,0 +1,19 @@
+{
+  "Name": "_ChildPage",
+  "Alias": "_ChildPage",
+  "File": "umb://template-file/_ChildPage.cshtml",
+  "Master": "umb://template/d91ac26ec6254176a51dfa5d6f89aab0",
+  "Udi": "umb://template/9b5cbc78addd4403bc60fa3d6f364866",
+  "Dependencies": [
+    {
+      "Udi": "umb://template-file/_ChildPage.cshtml",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://template/d91ac26ec6254176a51dfa5d6f89aab0",
+      "Ordering": true
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.TemplateArtifact",
+  "__version": "13.1.0"
+}

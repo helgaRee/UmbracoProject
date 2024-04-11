@@ -1,0 +1,26 @@
+{
+  "Deploy": {
+    "Project": {
+      "Name": "fundamentals on site helga reesalu utb ecutbildning se",
+      "Alias": "fundamentals-on-site-helga-reesalu-utb-ecutbildning-se",
+      "Id": "478cb238-db40-41d3-92a5-01154b73dfe7",
+      "Workspaces": [
+        {
+          "Id": "a0d2cf48-e2c0-40f6-ae4a-db57fb5adbf4",
+          "Name": "Live",
+          "Type": "live",
+          "Url": "https://fundamentals-on-site-helga-reesalu-utb-ecutbildning-se.euwest01.umbraco.io"
+        }
+      ]
+    },
+    "Settings": {
+      "ApiKey": "FA0DC5A6F6BEF7BBD4B925527363CD3EDBF56203"
+    }
+  },
+  "Identity": {
+    "ClientId": "0297c0f6-83ad-4481-9ae2-07a3f5475333",
+    "ClientSecret": "Q5~T526ixOHlj47lg7Mu7_.zN1fK.7ua.9",
+    "EnvironmentId": "a0d2cf48-e2c0-40f6-ae4a-db57fb5adbf4",
+    "LocalLoginRedirectUri": "https://redirect.identity.umbraco.com"
+  }
+}
